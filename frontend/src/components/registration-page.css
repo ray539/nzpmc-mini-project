@@ -1,0 +1,79 @@
+.w-main {
+  background-color: skyblue;
+  height: 100vh;
+  background-image: url('../assets/sky_background.jpg');
+}
+
+.w1 {
+  user-select: none;
+  border: none;
+  border-radius: 10px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: #444444;
+  opacity: 0.8;
+  color: white;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.inp1 {
+  margin-bottom: 20px;
+}
+
+.inp1 .t1 {
+  margin-bottom: 5px;
+}
+.inp1 input {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.inp1 input::placeholder {
+  color: grey;
+}
+
+.inp1 input:focus {
+  border: 3px solid orange;
+}
+
+.b1 {
+  padding: 7px;
+  border: none;
+  color: white;
+  background-color: lightskyblue;
+  border-radius: 5px;
+}
+
+.b1:hover {
+  cursor: pointer;
+}
+
+.spacer {
+  height: 20vh;
+}
+
+.err {
+  color: red;
+  padding: 5px;
+  background-color: rgb(255, 240, 240);
+  border: 2px solid red;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.success {
+  color: green;
+  padding: 5px;
+  background-color: rgb(206, 255, 206);
+  border: 2px solid green;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}

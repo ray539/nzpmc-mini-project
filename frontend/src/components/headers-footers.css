@@ -1,0 +1,49 @@
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.header .w {
+  display: flex;
+  justify-content: end;
+}
+
+.header .w .item {
+  background-color: black;
+  padding: 10px;
+}
+
+.header .w .item.highlight {
+  background-color: rgb(255, 166, 0);
+}
+
+.header .w .item:hover {
+  background-color: rgb(255, 212, 131);
+  cursor: pointer;
+}
+
+
+
+.bottom {
+  position: fixed;
+  bottom: 0px;
+  padding: 10px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.bottom .w {
+  display: flex;
+  justify-content: left;
+}
+
+.bottom .item {
+  padding: 10px;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: white;
+}

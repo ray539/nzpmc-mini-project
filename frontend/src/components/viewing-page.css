@@ -1,0 +1,117 @@
+.w-vmain {
+  background-color: skyblue;
+  height: 100vh;
+}
+
+.spacer-2 {
+  height: 30px;
+}
+
+.w-content {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #444444;
+  opacity: 0.8;
+  color: white;
+  margin: auto;
+  border-radius: 5px;
+  width: 60%
+}
+
+.w-content .w-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.w-content .w-input input {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+.w-content .tag {
+  margin-bottom: 5px;
+}
+
+.w-content .w-list {
+  min-height: 50vh;
+  max-height: 70vh;
+  border-radius: 5px;
+  background-color: #646464;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.w-content .item {
+  border: 1px solid rgb(77, 204, 255);
+  background-color: lightblue;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.w-content .item .info {
+  color: black;
+}
+
+.w-content .item .b {
+  background-color: rgb(255, 52, 52);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.w-content .item .b:hover {
+  background-color: rgb(255, 154, 154);
+  cursor: pointer;
+}
+
+.w-warning {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
+.warning {
+  user-select: none;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  border: 2px solid white;
+  background-color: rgb(189, 189, 189);
+  padding: 0px 10px 10px 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.warning .txt {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.warning .w-button {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.warning button {
+  border: none;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.warning button:hover {
+  cursor: pointer;
+  background-color: white;
+}

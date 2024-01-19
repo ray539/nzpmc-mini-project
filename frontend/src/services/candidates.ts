@@ -10,4 +10,8 @@ function postNewCandidate(newCandidate: CandidateNoId) {
   return axios.post(baseUrl, newCandidate).then(res => res.data as Candidate)
 }
 
-export default {getAllCandidates, postNewCandidate}
+function deleteCandidate(id: string) {
+  return axios.delete(`${baseUrl}/${id}`).then(res => res.data as Candidate)
+}
+
+export default {getAllCandidates, postNewCandidate, deleteCandidate}
